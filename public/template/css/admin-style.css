@@ -1,0 +1,85 @@
+.form-horizontal .control-label {
+	font-weight: bold;
+	color: #000;
+}
+.custom-label {
+	padding-top: 7px;
+}
+.link-insert-img, .remove-img {
+	color: #0073aa;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.link-insert-img:hover, .remove-img:hover {
+	color: #30B4F2;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.remove-img {
+	margin-top: 14px;
+	display: block;
+}
+
+.album-image a.thumb {
+	width: 100%;
+	height: 134px;
+	overflow: hidden;
+	display: block;
+}
+
+.album-image a.thumb img {
+	height: 134px;
+	width: 100%;
+}
+
+#myModal .modal-body {
+	height: 405px;
+	display: block;
+} 
+
+.modal-gallery-image {
+	height: 350px;
+	display: block;
+}
+
+.modal-gallery-image img {
+	max-height: 350px;
+}
+
+.gallery-env .album-images .album-image .image-options a:first-child {
+	margin-right: 8px;
+}
+
+.gallery-env a {
+	cursor: pointer;
+}
+
+.new-image .album-image {
+	min-height: 193px;
+}
+
+.new-image .name {
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+	z-index: 999;
+	left: 0;
+	width: 100% !important;
+	text-align: center;
+}
+
+.new-image .name i {
+	font-size: 44px;
+}
+
+.new-image .btn-icon-standalone span {
+	padding-left: 9px;
+}
+
+a.btn-tool {
+	color: #ffffff !important;
+}
+
+.dataTables_wrapper a {
+	color: #0073aa;
+}
