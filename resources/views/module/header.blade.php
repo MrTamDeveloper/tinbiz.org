@@ -194,7 +194,7 @@
 			    	<div class="td-drop-down-search input-group" aria-labelledby="td-header-search-button">
 			    		{!! Form::open(['url' => 'search', 'method' => 'get', 'role' => 'form', 'class' => 'form-horizontal td-search-form', 'name' => 'frmSearch', 'id' => 'frmSearch', 'enctype' => 'multipart/form-data']) !!}
 						
-							<div class="td-head-form-search-wrap">
+							<div class="td-head-form-search-wrap input-group">
 								<input id="td-header-search" class="form-control" type="text" value="" name="s" autocomplete="off">
 								<span class="input-group-btn">
 									<input class="wpb_button wpb_btn-inverse btn" type="submit" id="td-header-search-top" value="Search">

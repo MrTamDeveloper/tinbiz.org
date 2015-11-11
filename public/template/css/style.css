@@ -2068,6 +2068,7 @@ nav .dropdown-menu {
     border: none;
     width: 342px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 0;
 }
 
 nav .dropdown-menu:before {
@@ -2105,6 +2106,15 @@ nav .dropdown-menu .td-drop-down-search .btn {
     transition: background-color 0.4s;
     border-radius: 0;
     color: #fff;
+}
+
+nav .dropdown-menu .input-group {
+	width: 100%;
+}
+
+nav .dropdown-menu .input-group input {
+	border-color: #e1e1e1;
+    border-radius: 0;
 }
 
 nav.affix {
@@ -2184,8 +2194,3 @@ nav .td_mod_mega_menu:hover .entry-title a {
 	opacity: 0.5;
 }
 
-#td-header-search {
-	width: 232px;
-    border-color: #e1e1e1;
-    border-radius: 0;
-}
